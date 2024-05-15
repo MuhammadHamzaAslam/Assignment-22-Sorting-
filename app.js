@@ -8,7 +8,7 @@ function sorting() {
         for (let j = i; j < arr.length; j++) {
             // console.log(j);
            let data = 0;
-           if (parseFloat(arr[i]) > arr[j])) {
+           if (parseFloat(arr[i]) > parseFloat(arr[j])) {
             // console.log(arr[i]);
                 data = arr[i];
                 arr[i] = arr[j];
