@@ -8,7 +8,7 @@ function sorting() {
         for (let j = i; j < arr.length; j++) {
             // console.log(j);
            let data = 0;
-           if (arr[i] > arr[j]) {
+           if (parseFloat(arr[i]) > arr[j])) {
             // console.log(arr[i]);
                 data = arr[i];
                 arr[i] = arr[j];
@@ -22,6 +22,9 @@ function sorting() {
     document.getElementById("result").value = newArray
 }
 function descending() {
-    let reve = newArray.slice().reverse()
-    document.getElementById("result").value = reve
+    let reve = newArray.reverse(); 
+    document.getElementById("result").value = reve;
 }
+
+
+
